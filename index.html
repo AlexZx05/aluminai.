@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+      .image-container{
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+  }
+  .btn-detail {
+        background-color: grey; /* Change the background color to grey */
+        color: white; /* Set the text color to white */
+    }
+  .card-title{
+    text-align: center;
+  }
+  .card-text{
+    text-align: center;
+  }
+  .center-button {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 40px; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}  
+.card{
+    margin: 20px;
+} 
+.Faculty-name{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.center-button a {
+    transition: transform 0.2s; /* Add a transition for the "detail" button */
+  }
+
+  .center-button a:hover {
+    transform: scale(1.1); /* Scale the button up on hover */
+  }
+
+  .image-class {
+    transition: transform 0.2s; /* Add a transition for the image */
+  }
+
+  .image-class:hover {
+    transform: scale(1.1); /* Scale the image up on hover */
+  }
+  /* Target the #myCarousel element and set its height */
+#myCarousel {
+  height: 100%; /* Adjust the height to your preferred value */
+}
+
+/* Optional: Center carousel items vertically */
+.carousel-inner {
+  display: flex;
+  align-items: center;
+}
+
+/* Optional: Adjust the height of the carousel items (images) */
+.carousel-item {
+  height: 100%; /* You can also adjust this as needed */
+}
+/* Add transition and scaling to the image */
+.col-md-5 img {
+  transition: transform 0.2s; /* Add a transition for the image */
+}
+
+.col-md-5 img:hover {
+  transform: scale(1.1); /* Scale the image up on hover */
+
+}
+
+/* Add transition and scaling to the text */
+.col-md-7 h2,
+.col-md-7 p {
+  transition: transform 0.2s; /* Add a transition for the text */
+}
+
+.col-md-7 h2:hover,
+.col-md-7 p:hover {
+  transform: scale(1.1); /* Scale the text up on hover */
+}
+
+p {
+  text-align: center;
+  font-family:  serif;
+}
+
+
+.featurette-heading{
+text-align: center;
+
+}
+  
+
+
+    </style>
+</head>
+<body>
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+        <div class="py-5">
+          <h1 class="display-5 fw-bold text-white">ALLUMINAI</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
+              <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="b-example-divider"></div>
+
+
+
+    <div class="container">
+        
+
+        <div class="row">
+            <div class="card" style="width: 18rem;">
+                <h1></h1>
+                <div class="image-container" style="width: 100%; height: 300px; overflow: hidden;">
+                    <img src="photo/vibanshu.jpg" class="card-img-top image-class" alt="..." style="object-fit: cover; width: 100%; height: 100%;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">vibanshu jain</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary center-button">Detail</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <h1></h1>
+                <div class="image-container" style="width: 100%; height: 300px; overflow: hidden;">
+                    <img src="photo/ananya.jpg" class="card-img-top image-class" alt="..." style="object-fit: cover; width: 100%; height: 100%;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Ananya mantravadi</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary center-button">Detail</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <h1></h1>
+                <div class="image-container" style="width: 100%; height: 300px; overflow: hidden;">
+                    <img src="./flower.avif" class="card-img-top image-class" alt="..." style="object-fit: cover; width: 100%; height: 100%;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary center-button">Detail</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <h1></h1>
+                <div class="image-container" style="width: 100%; height: 300px; overflow: hidden;">
+                    <img src="./flower.avif" class="card-img-top image-class" alt="..." style="object-fit: cover; width: 100%; height: 100%;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary center-button">Detail</a>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div style="height: 40px;"></div>
+
+        <div class="row">
+            <div class="card" style="width: 18rem;">
+                <h1></h1>
+                <div class="image-container" style="width: 100%; height: 300px; overflow: hidden;">
+                    <img src="./flower.avif" class="card-img-top image-class" alt="..." style="object-fit: cover; width: 100%; height: 100%;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary center-button">Detail</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <h1></h1>
+                <div class="image-container" style="width: 100%; height: 300px; overflow: hidden;">
+                    <img src="./flower.avif" class="card-img-top image-class" alt="..." style="object-fit: cover; width: 100%; height: 100%;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary center-button">Detail</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <h1></h1>
+                <div class="image-container" style="width: 100%; height: 300px; overflow: hidden;">
+                    <img src="./flower.avif" class="card-img-top image-class" alt="..." style="object-fit: cover; width: 100%; height: 100%;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary center-button">Detail</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <h1></h1>
+                <div class="image-container" style="width: 100%; height: 300px; overflow: hidden;">
+                    <img src="./flower.avif" class="card-img-top image-class" alt="..." style="object-fit: cover; width: 100%; height: 100%;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary center-button">Detail</a>
+                </div>
+            </div>
+        </div>
+
+
+        
+    </div>
+    <div style="height: 50px;"></div>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Aditya agarwal</h2>
+          <p class="lead">
+
+            "In a significant achievement for IIIT Raichur, one of its alumni secured a job offer with a remarkable annual package of 45 lakh rupees from Amazon. This accomplishment not only highlights the excellence of the institution but also showcases the potential and capabilities of the talented individuals nurtured by IIIT Raichur. It's a proud moment for the alumni, the institution, and the academic community as a whole Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus numquam quidem quibusdam pariatur, cum voluptatem vero praesentium doloribus veniam maiores ut sint eius, cumque esse beatae quam blanditiis laboriosam! Ab! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit iure amet quod. Eos quae voluptate accusantium reprehenderit nisi, illum veniam! Similique iusto ullam maxime reiciendis tempora commodi eaque? Provident, distinctio?</p>
+       </div>
+        <div class="col-md-5">
+            <img src="./flower.avif" alt="Image description">  
+        </div>
+      </div>
+      <div style="height: 50px;"></div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading"> abhijeet bhaiya <span class="text-muted"></span></h2>
+          <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="./flower.avif" alt="Image description">  
+        </div>
+      </div>
+      <div style="height: 50px;"></div>
+      <hr class="featurette-divider">
+      
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">kush bhaiya <span class="text-muted"></span></h2>
+          <p class="lead"> "In a remarkable and inspiring feat, Ksuh Bhaiya, an alumnus of IIIT Raichur, has made his alma mater proud by securing a prestigious job offer with a lucrative annual package of 45 lakh rupees from Amazon. This accomplishment not only reflects Ksuh's dedication and hard work but also underscores the high quality of education and training provided by IIIT Raichur. Ksuh's journey from being a student at the institution to landing a coveted position at one of the world's leading tech companies serves as a shining example to current and future students. His success is a testament to the rigorous academic curriculum and the guidance he received at IIIT Raichur. Ksuh's achievement also demonstrates the great potential and talent that the institution helps foster. It is a moment of celebration for both Ksuh Bhaiya and IIIT Raichur, and it's sure to inspire many aspiring students to aim for excellence and dream big in their academic and professional pursuits."</p>
+        </div>
+        <div class="col-md-5">
+          <!-- Replace the SVG with an actual image element -->
+          <img src="./flower.avif" alt="Image description">
+        </div>
+      </div>
+
+      <main>
+
+        <section class="py-5 text-center container">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light">Metallic Memories</h1>
+              <p class="lead text-body-secondary"> Every face in this alumni photo album tells a unique story. We are a diverse and accomplished group, with each member contributing their own distinctive talents and passions to the world. Together, we represent the shared values and the lasting impact of our educational institution. As alumni, we remain committed to making a difference in our communities and beyond</p>
+              <p>
+                <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+              </p>
+            </div>
+          </div>
+        </section>
+      
+        <div class="album py-5 bg-body-tertiary">
+          <div class="container">
+      
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="photo/group4.jpg" alt="Image description">
+                  <div class="card-body">
+                    <p class="card-text">The "Homecoming Weekend" was a special gathering marking a decade of shared memories. Alumni returned to their alma mater to celebrate their connection and the enduring friendships formed during their time at the institution. It was a time to reminisce, reconnect, and honor the traditions and experiences that shaped them, reinforcing the strong bond of their shared history.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="photo/group5.jpg" alt="Image description">                  <div class="card-body">
+                    <p class="card-text">The "Annual Charity Gala" was an event organized by alumni to support local education initiatives. During their academic years, alumni came together to raise funds for educational causes, highlighting their commitment to giving back to their community. This event provided a platform for alumni to show their philanthropic spirit, create positive change, and make a meaningful impact on the lives of others..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="photo/group6.jpg" alt="Image description">                  <div class="card-body">
+                    <p class="card-text">The "Innovation Fair" was a showcase of alumni-driven startups and projects. It offered a platform for graduates to exhibit their entrepreneurial ventures and innovative ideas developed during their academic journey. Alumni used this event to network, gain exposure for their projects, and inspire the next generation of innovators, showcasing their dedication to fostering creativity and progress.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+<img src="photo/group7.jpg" alt="Image description">                   <div class="card-body">
+                    <p class="card-text">This event was a friendly competition where alumni could relive the spirited rivalries of their college years. It brought former athletes and sports enthusiasts back to the playing field to compete and share their passion for sports, reminding everyone of the camaraderie that comes from shared athletic experiences.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="photo/group2.jpg" alt="Image description">                   <div class="card-body">
+                    <p class="card-text">The "Homecoming Weekend" was a special gathering marking a decade of shared memories. Alumni returned to their alma mater to celebrate their connection and the enduring friendships formed during their time at the institution. It was a time to reminisce, reconnect, and honor the traditions and experiences that shaped them, reinforcing the strong bond of their shared history.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="photo/group8.jpg" alt="Image description">                   <div class="card-body">
+                    <p class="card-text">The "Homecoming Weekend" was a special gathering marking a decade of shared memories. Alumni returned to their alma mater to celebrate their connection and the enduring friendships formed during their time at the institution. It was a time to reminisce, reconnect, and honor the traditions and experiences that shaped them, reinforcing the strong bond of their shared history.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="photo/group9.jpg" alt="Image description">                   <div class="card-body">
+                    <p class="card-text">The "Homecoming Weekend" was a special gathering marking a decade of shared memories. Alumni returned to their alma mater to celebrate their connection and the enduring friendships formed during their time at the institution. It was a time to reminisce, reconnect, and honor the traditions and experiences that shaped them, reinforcing the strong bond of their shared history.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="photo/group10.jpg" alt="Image description">                   <div class="card-body">
+                    <p class="card-text">This event was a friendly competition where alumni could relive the spirited rivalries of their college years. It brought former athletes and sports enthusiasts back to the playing field to compete and share their passion for sports, reminding everyone of the camaraderie that comes from shared athletic experiences.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="photo/group1.jpg" alt="Image description"> <div class="card-body">
+                    <p class="card-text">The "Annual Charity Gala" was an event organized by alumni to support local education initiatives. During their academic years, alumni came together to raise funds for educational causes, highlighting their commitment to giving back to their community. This event provided a platform for alumni to show their philanthropic spirit, create positive change, and make a meaningful impact on the lives of others</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </main>
+
+      
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
